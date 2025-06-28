@@ -21,7 +21,6 @@ C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\rjsmcshtm
 C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\scopedcss\bundle\DiaryApp.styles.css
 C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\scopedcss\projectbundle\DiaryApp.bundle.scp.css
-C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\compressed\hayophprdp-b9sayid5wm.gz
 C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\compressed\xcgrzcf88j-61n19gt1b8.gz
 C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\compressed\rf64xyb2df-xtxxf3hu2r.gz
 C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\compressed\lgc4e6gxlv-bqjiyaj88i.gz
@@ -94,3 +93,5 @@ C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\refint\Di
 C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\DiaryApp.pdb
 C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\DiaryApp.genruntimeconfig.cache
 C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\ref\DiaryApp.dll
+C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\DiaryApp.sourcelink.json
+C:\Users\Hamad\Desktop\Work\projects\backend\DiaryApp\obj\Debug\net9.0\compressed\hayophprdp-b9sayid5wm.gz
