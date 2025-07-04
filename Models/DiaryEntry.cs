@@ -7,10 +7,11 @@ namespace DiaryApp.Models
     {
         [Key]
         public int Id { get; set; }
+        [Required(ErrorMessage = "Title is a must!")]
+        public string Title { get; set; } = string.Empty;
         [Required]
-        public string Title { get; set; }
-        [Required]  
-        public string Content { get; set; }
+        //[MinLength(10, ErrorMessage = "Content must be at least 10 characters long.")]
+        public string Content { get; set; } = string.Empty;
         [Required]
         public DateTime Created { get; set; } = DateTime.Now;
     }

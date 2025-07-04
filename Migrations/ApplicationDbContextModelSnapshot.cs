@@ -44,6 +44,22 @@ namespace DiaryApp.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("DiaryEntries");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Content = "This is your first diary entry.",
+                            Created = new DateTime(2025, 6, 30, 9, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Welcome to your diary"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Content = "This is your Second diary entry.",
+                            Created = new DateTime(2025, 6, 30, 9, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Welcome to your diary"
+                        });
                 });
 #pragma warning restore 612, 618
         }

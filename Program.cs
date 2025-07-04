@@ -1,17 +1,19 @@
 
+using DiaryApp.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //builder.Services.Configure<HttpsRedirectionOptions>(options =>
 //{
-//    options.HttpsPort = 5001;
-//});
-
+//    options.HttpsPort = 5001;});
 
 
 var app = builder.Build();
